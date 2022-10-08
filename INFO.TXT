@@ -2,3 +2,6 @@
 //npx cypress run --record --key 928e861c-91b0-4897-97d8-caa0a9a5f1ad
 // tengo contrl para poder realizar las pruebas de cypress. con el dashboard!
 tienes q abrir cypress en otra terminal ir a run y te saldra las barras mientras corres
+
+// ejecucion -- npm install ------- aqui instala todso los paquetes
+//ejecucion poner la clave en jenkins para tener control.
