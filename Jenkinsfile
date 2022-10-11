@@ -12,10 +12,10 @@ pipeline {
                         label "Agente1"
                     }
                     steps {
-                        'https://github.com/AL3MA1/demo2.git'
-                        'npm install'
-                        'npm update'                       
-                        'npx cypress run --record --key 928e861c-91b0-4897-97d8-caa0a9a5f1ad --parallel'
+                        echo'https://github.com/AL3MA1/demo2.git'
+                        echo'npm install'
+                        echo'npm update'                       
+                        echo'npx cypress run --record --key 928e861c-91b0-4897-97d8-caa0a9a5f1ad --parallel'
                     
                     }
                 }
@@ -25,10 +25,10 @@ pipeline {
                         label "Agente2"
                     }
                     steps {
-                        'https://github.com/AL3MA1/demo2.git'
-                        'npm install'
-                        'npm update'                       
-                        'npx cypress run --record --key 928e861c-91b0-4897-97d8-caa0a9a5f1ad --parallel'
+                        echo'https://github.com/AL3MA1/demo2.git'
+                        echo'npm install'
+                        echo'npm update'                       
+                        echo'npx cypress run --record --key 928e861c-91b0-4897-97d8-caa0a9a5f1ad --parallel'
                     
                     }
                 }
@@ -38,10 +38,10 @@ pipeline {
                         label "Agente3"
                     }
                     steps {
-                       'https://github.com/AL3MA1/demo2.git'
-                        'npm install'
-                        'npm update'                       
-                        'npx cypress run --record --key 928e861c-91b0-4897-97d8-caa0a9a5f1ad --parallel'
+                       echo'https://github.com/AL3MA1/demo2.git'
+                        echo'npm install'
+                        echo'npm update'                       
+                        echo'npx cypress run --record --key 928e861c-91b0-4897-97d8-caa0a9a5f1ad --parallel'
                     
                     }
                 }
@@ -51,10 +51,10 @@ pipeline {
                         label "Agente4"
                     }
                     steps {
-                       'https://github.com/AL3MA1/demo2.git'
-                        'npm install'
-                        'npm update'                       
-                        'npx cypress run --record --key 928e861c-91b0-4897-97d8-caa0a9a5f1ad --parallel'
+                       echo'https://github.com/AL3MA1/demo2.git'
+                        echo'npm install'
+                        echo'npm update'                       
+                        echo'npx cypress run --record --key 928e861c-91b0-4897-97d8-caa0a9a5f1ad --parallel'
                     
                     }
                 }
@@ -63,10 +63,10 @@ pipeline {
                         label "Agente5"
                     }
                     steps {
-                        'https://github.com/AL3MA1/demo2.git'
-                        'npm install'
-                        'npm update'                       
-                        'npx cypress run --record --key 928e861c-91b0-4897-97d8-caa0a9a5f1ad --parallel'
+                        echo'https://github.com/AL3MA1/demo2.git'
+                        echo'npm install'
+                        echo'npm update'                       
+                        echo'npx cypress run --record --key 928e861c-91b0-4897-97d8-caa0a9a5f1ad --parallel'
                     
                     }
                 }
