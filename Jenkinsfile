@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    tools {nodejs "node"}
+    //tools {nodejs "node"}
 
     stages {
 
@@ -28,7 +28,7 @@ pipeline {
                         git url: 'https://github.com/AL3MA1/demo2.git --parallel'
                         bat 'npm install'
                         bat 'npm update'                       
-                        bat 'npx cypress run --record --key 928e861c-91b0-4897-97d8-caa0a9a5f1ad'
+                        bat 'npx cypress run --record --key 928e861c-91b0-4897-97d8-caa0a9a5f1ad --parallel'
                     
                     }
                 }
@@ -41,7 +41,7 @@ pipeline {
                         git url: 'https://github.com/AL3MA1/demo2.git --parallel'
                         bat 'npm install'
                         bat 'npm update'                       
-                        bat 'npx cypress run --record --key 928e861c-91b0-4897-97d8-caa0a9a5f1ad'
+                        bat 'npx cypress run --record --key 928e861c-91b0-4897-97d8-caa0a9a5f1ad --parallel'
                     
                     }
                 }
@@ -54,7 +54,7 @@ pipeline {
                         git url: 'https://github.com/AL3MA1/demo2.git --parallel'
                         bat 'npm install'
                         bat 'npm update'                       
-                        bat 'npx cypress run --record --key 928e861c-91b0-4897-97d8-caa0a9a5f1ad'
+                        bat 'npx cypress run --record --key 928e861c-91b0-4897-97d8-caa0a9a5f1ad --parallel'
                     
                     }
                 }
@@ -66,7 +66,7 @@ pipeline {
                         git url: 'https://github.com/AL3MA1/demo2.git --parallel'
                         bat 'npm install'
                         bat 'npm update'                       
-                        bat 'npx cypress run --record --key 928e861c-91b0-4897-97d8-caa0a9a5f1ad'
+                        bat 'npx cypress run --record --key 928e861c-91b0-4897-97d8-caa0a9a5f1ad --parallel'
                     
                     }
                 }
