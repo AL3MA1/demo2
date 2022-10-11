@@ -1,5 +1,5 @@
 //projectId: v9egqh
-//npx cypress run --record --key 928e861c-91b0-4897-97d8-caa0a9a5f1ad  // AL SER EN MAC ES TODO CON SHELL Y SERIA echo cypress run --record --key 928e861c-91b0-4897-97d8-caa0a9a5f1ad 
+//       // AL SER EN MAC ES TODO CON SHELL Y SERIA echo cypress run --record --key 928e861c-91b0-4897-97d8-caa0a9a5f1ad 
 // tengo contrl para poder realizar las pruebas de cypress. con el dashboard!
 tienes q abrir cypress en otra terminal ir a run y te saldra las barras mientras corres
 
@@ -18,3 +18,7 @@ dLauncher: MockSlaveLauncher; localizcion herramiento .. git --> /opt/local/bin/
 PARA ACTIVARLA MAQUINA TENEMOS QUE DESCARGAR AGENT.ZIP Y AGREGARLO A JAVA PARA ACTIVAR LAS MAQUINAS
 _______________
 Launcher: MockSlaveLauncher PARA CREAR AGENTE EN MAC TENEMOS QUE USAR ESE LANZADOR DESDE LA CONFIGURACION
+
+
+__________jenkinsfile tiene q tener el mismo nombre script path a la hora de crear un proyecto pipline
+https://andresfelipeocampo.medium.com/c%C3%B3mo-instalar-y-configurar-jenkins-en-mac-os-517fce0f5c5a
