@@ -10,10 +10,4 @@ describe("Bievenidos al curso de cypress seccion 1",() =>{
         cy.wait(3000)
     })
 
-    it("Segundo test -> campo name", () =>{
-        cy.visit("https://demoqa.com/text-box")
-        cy.get("#userName").type("Alejandro")//elemento id con tipo gato.
-        cy.wait(4000)
-        
-    })
 })//cierre de describe
