@@ -22,3 +22,4 @@ Launcher: MockSlaveLauncher PARA CREAR AGENTE EN MAC TENEMOS QUE USAR ESE LANZAD
 
 __________jenkinsfile tiene q tener el mismo nombre script path a la hora de crear un proyecto pipline
 https://andresfelipeocampo.medium.com/c%C3%B3mo-instalar-y-configurar-jenkins-en-mac-os-517fce0f5c5a
+BREW LTS PARA ACTIVARLO
