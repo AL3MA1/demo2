@@ -1,5 +1,6 @@
 ///<reference types= "Cypress" />
 describe("Opciones de click",() =>{
+    require('cypress-plugin-tab')
     it("Click basico",() =>{
         cy.visit("https://opensource-demo.orangehrmlive.com/index.php/auth/login")
         cy.title().should('eq',"OrangeHRM")
