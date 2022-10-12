@@ -1,0 +1,19 @@
+{
+  "name": "pruebacypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AL3MA1/demo2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AL3MA1/demo2/issues"
+  },
+  "homepage": "https://github.com/AL3MA1/demo2#readme"
+}
